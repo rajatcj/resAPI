@@ -1,1 +1,2 @@
 akinator.py[fast_async]
+uvicorn
