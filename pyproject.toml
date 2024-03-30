@@ -23,6 +23,7 @@ aiohttp = "^3.8.1"
 aioify = "^0.4.1"
 pydantic = "^1.9.2"
 slowapi = "^0.1.6"
+instagram-private-api = {git = "https://github.com/ping/instagram_private_api"}
 
 
 [tool.poetry.dev-dependencies]

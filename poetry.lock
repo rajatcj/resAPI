@@ -241,6 +241,21 @@ perf = ["ipython"]
 testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-cov", "pytest-enabler (>=1.3)", "packaging", "pyfakefs", "flufl.flake8", "pytest-perf (>=0.9.2)", "pytest-black (>=0.3.7)", "pytest-mypy (>=0.9.1)", "importlib-resources (>=1.3)"]
 
 [[package]]
+name = "instagram-private-api"
+version = "1.6.0"
+description = "A client interface for the private Instagram API."
+category = "main"
+optional = false
+python-versions = "*"
+develop = false
+
+[package.source]
+type = "git"
+url = "https://github.com/ping/instagram_private_api"
+reference = "master"
+resolved_reference = "0fda0369ac02bc03d56f5f3f99bc9de2cc25ffaa"
+
+[[package]]
 name = "itsdangerous"
 version = "2.1.2"
 description = "Safely pass data to untrusted environments and back."
@@ -721,7 +736,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "798c9552f7404f280c33f4f96635279ac5b7a4b2897567385d18e4eb48cd0873"
+content-hash = "088d196b11bc8434c4095207caefc949128dd78009bed8f7b2b095eb0ef69af1"
 
 [metadata.files]
 aiohttp = []
@@ -744,6 +759,7 @@ frozenlist = []
 h11 = []
 idna = []
 importlib-metadata = []
+instagram-private-api = []
 itsdangerous = []
 jedi = []
 jinja2 = []
