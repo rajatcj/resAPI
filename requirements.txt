@@ -13,7 +13,7 @@ Pillow==9.2.0
 beautifulsoup4==4.11.1
 xmltodict==0.13.0
 aiohttp==3.8.1
-aioify==0.4.1
+aioify
 pydantic==1.9.2
 slowapi==0.1.6
 git+https://github.com/ping/instagram_private_api
