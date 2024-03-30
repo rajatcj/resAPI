@@ -3,3 +3,4 @@ uvicorn
 anyio
 aiohttp
 numpy
+pydantic
