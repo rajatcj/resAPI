@@ -2,3 +2,4 @@ akinator.py[fast_async]
 uvicorn
 anyio
 aiohttp
+numpy
